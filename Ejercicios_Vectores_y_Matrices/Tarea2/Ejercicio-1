@@ -1,3 +1,4 @@
+#Ejercicios con Enteros
 # 1. Declarar una variable entera llamada 'edad' y asignarle el valor 25.
 edad = 25
 print("La edad es:", edad)

@@ -1,0 +1,32 @@
+# Ejercicios con Matrices (arreglos)
+
+# 23. Crear una matriz de 2x2 e imprimir el promedio de todos sus elementos.
+matriz_2x2 = [
+    [1, 2],
+    [3, 4]
+]
+
+# Calcular la suma total de los elementos.
+suma_total = sum(sum(fila) for fila in matriz_2x2)
+# Número total de elementos en la matriz 2x2 es 4.
+promedio = suma_total / 4
+print("El promedio de los elementos de la matriz 2x2 es:", promedio)
+
+# 24. Crear una matriz 2x3 y luego transponerla (convertir filas en columnas y viceversa).
+matriz_2x3 = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+# Transponer la matriz: filas se convierten en columnas.
+# La nueva matriz tendrá dimensiones 3x2.
+transpuesta = [[matriz_2x3[j][i] for j in range(len(matriz_2x3))]
+               for i in range(len(matriz_2x3[0]))]
+
+print("\nMatriz original 2x3:")
+for fila in matriz_2x3:
+    print(fila)
+
+print("\nMatriz transpuesta (3x2):")
+for fila in transpuesta:
+    print(fila)

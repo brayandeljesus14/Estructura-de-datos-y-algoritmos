@@ -1,0 +1,21 @@
+#Ejercicios con Caracteres
+
+# 13. Declara una variable 'inicial' y asígnale la primera letra de tu nombre.
+# Por ejemplo, si tu nombre es "Alejandro", la primera letra es "A".
+inicial = "A"
+print("La inicial de mi nombre es:", inicial)
+
+# 14. Pide al usuario que ingrese una letra y muéstrala en pantalla.
+letra_usuario = input("Ingrese una letra: ")
+print("La letra ingresada es:", letra_usuario)
+
+# 15. Declara una variable 'simbolo' y asígnale el carácter #.
+simbolo = "#"
+print("El símbolo es:", simbolo)
+
+# 16. Comprueba si un carácter ingresado es una vocal (a, e, i, o, u).
+caracter = input("Ingrese un carácter para verificar si es una vocal: ").lower()
+if caracter in "aeiou":
+    print(f"El carácter '{caracter}' es una vocal.")
+else:
+    print(f"El carácter '{caracter}' no es una vocal.")

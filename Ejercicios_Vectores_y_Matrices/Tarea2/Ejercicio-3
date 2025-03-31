@@ -1,24 +1,26 @@
 #Ejercicios con Valores Lógicos (Booleanos)
 
-
-edad = 25 
+# 9. Declara una variable esMayor y asígnale Verdadero si edad es mayor de 18.
+edad = 25  # Puedes modificar el valor si es necesario
 esMayor = edad > 18
 print("¿Es mayor de 18?", esMayor)
 
-
+# 10. Crea un programa que verifique si un número ingresado es positivo o negativo.
 numero = float(input("Ingrese un número: "))
 if numero >= 0:
     print("El número es positivo.")
 else:
     print("El número es negativo.")
 
+# 11. Declara una variable llueve y usa una condición para mostrar si debes llevar paraguas.
+# Se pide al usuario confirmar si está lloviendo.
 llueve = input("¿Está lloviendo? (si/no): ").lower() == "si"
 if llueve:
     print("Debes llevar paraguas.")
 else:
     print("No es necesario llevar paraguas.")
 
-
+# 12. Escribe un programa que compare dos números y muestre Verdadero si son iguales.
 num1 = float(input("Ingrese el primer número: "))
 num2 = float(input("Ingrese el segundo número: "))
 son_iguales = num1 == num2
