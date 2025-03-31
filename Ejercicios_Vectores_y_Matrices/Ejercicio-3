@@ -1,0 +1,24 @@
+# Diseñar el algoritmo correspondiente a un programa, que:
+# Crea una tabla bidimensional de longitud 5x5 y nombre 'matriz'.
+# Carga la tabla con valores numéricos enteros.
+# Suma todos los elementos de cada fila y todos los elementos de cada columna visualizando los resultados en pantalla.
+
+matriz = []
+print("Ingrese los valores enteros para llenar la matriz 5x5:")
+
+for i in range(5):
+    fila = []
+    for j in range(5):
+        valor = int(input(f"Elemento [{i}][{j}]: "))
+        fila.append(valor)
+    matriz.append(fila)
+
+print("\nSuma de cada fila:")
+for i in range(5):
+    suma_fila = sum(matriz[i])
+    print(f"Fila {i}: {suma_fila}")
+
+print("\nSuma de cada columna:")
+for j in range(5):
+    suma_columna = sum(matriz[i][j] for i in range(5))
+    print(f"Columna {j}: {suma_columna}")
