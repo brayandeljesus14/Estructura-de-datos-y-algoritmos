@@ -1,0 +1,15 @@
+# Crear un vector de 5 elementos de cadenas de caracteres, inicializa el vector con datos leídos por el teclado. 
+# 11Copia los elementos del vector en otro vector pero en orden inverso, y muéstralo por la pantalla.
+vector_cadenas = []
+
+
+for i in range(5):
+    cadena = input(f"Ingrese la cadena {i+1}: ")
+    vector_cadenas.append(cadena)
+
+
+vector_inverso = vector_cadenas[::-1]
+
+print("\nEl vector en orden inverso es:")
+for cadena in vector_inverso:
+    print(cadena)

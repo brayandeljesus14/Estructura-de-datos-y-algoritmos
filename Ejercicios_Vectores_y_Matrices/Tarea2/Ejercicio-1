@@ -1,0 +1,16 @@
+# 1. Declarar una variable entera llamada 'edad' y asignarle el valor 25.
+edad = 25
+print("La edad es:", edad)
+
+# 2. Sumar dos números enteros 15 y 30 y mostrar el resultado.
+resultado_suma = 15 + 30
+print("El resultado de la suma de 15 y 30 es:", resultado_suma)
+
+# 3. Calcular el doble de un número entero ingresado por el usuario.
+numero = int(input("Ingrese un número entero: "))
+doble = numero * 2
+print("El doble del número ingresado es:", doble)
+
+# 4. Restar 100 - 45 y guardar el resultado en una variable llamada 'diferencia'.
+diferencia = 100 - 45
+print("El resultado de la resta 100 - 45 es:", diferencia)
